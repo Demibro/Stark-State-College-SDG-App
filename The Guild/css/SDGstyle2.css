@@ -1,0 +1,249 @@
+/*CSS Page Software Guild*/
+
+html
+{
+	overflow-x: hidden;
+}
+body 
+{
+	font-size: 16pt;
+	font-family: Calibri, Candara, Segoe, 
+	'Segoe UI', Optima, Arial, sans-serif;
+	background-color: #08353EFF;
+	background-image: url("../img/bg3.png");
+	margin: 0;
+	min-width: 360px;
+}
+#wrapper
+{
+	max-width: 90%;
+	margin: 0 auto;
+	border: solid black;
+	border-width: 2px 4px 2px 4px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #0C525EFF;
+}
+
+.font-size-down-center
+{
+	font-size: .55em;
+	text-align: center;
+	display: inline;
+}
+.font-size-down
+{
+	font-size: .65em;
+	text-align: center;
+	
+}
+header
+{
+	text-align: center;
+	background-color: black;
+	
+}
+nav
+{
+	
+	text-align: center;
+	max-width: 100%;
+	background-color: #0C525EFF;
+	
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 1.4em;
+}
+.content
+{
+	
+	text-align: center;
+	display: inline-flex;
+	/*background-color:#08353EFF;*/
+	
+}
+aside *
+{
+	margin: 0;
+	text-align: left;
+}
+
+aside
+{
+	float:left;
+	max-width: 14%;
+	font-size: .9em;
+	padding: 15px;
+	color: white;
+	background-color: #B1D7CD;
+	border-top: #08353EFF solid 2px;
+	
+}
+aside p
+{
+	text-indent: 10px;
+	font-size: .9em;
+}
+article
+{
+	float:left;
+	color: #262626FF;
+	font-size: 1.5em;
+	background-color: #E0EAE9;
+	border: solid #08353EFF 2px;
+	border-width: 2px 0 0 0;
+	
+}
+
+article a
+{
+	color:#707070FF;
+	text-decoration: none;
+
+}
+
+article *
+{
+	margin:0;
+	padding:0;
+}
+.left-pane p
+{
+	font-size: .8em;
+	max-width: 70%;
+	margin:0 auto;
+	text-align: left;
+	text-indent: 36px;
+}
+.about 
+{
+	
+	margin-bottom: 5%;
+}
+
+article .meeting-info
+{
+	
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	text-align: center;
+}
+footer *
+{
+	margin: 0;
+	font-size: .8em;
+	color: white;
+	background-color: black;
+	padding: 0;
+}
+footer
+{
+	
+	background-color: black;
+	max-width: 100%;
+}
+
+footer #copyright
+	{	
+		margin-right: 99%;
+		display: inline-flex;
+		max-width: 100%;
+		width: 400px;
+
+	}
+footer #contact
+	{	
+		display: inline-flex;
+		width: 900px;
+		max-width: 100%;
+
+	}
+#contact a
+{
+	text-decoration: none;
+}
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: 360px;
+}
+@media screen and (max-width: 1200px)
+{
+	
+	.content
+	{
+		display: inline-block;
+		max-width: 100%;
+		margin:0 auto;
+	}
+	.meeting-info
+	{
+		font-size: .75em;
+
+	}
+	article
+	{
+		max-width: 100%;
+		border-right: initial;
+	}
+	article p
+	{
+		font-size: .85em;
+		padding: 0;
+
+	}
+	aside
+	{
+		display: inline-block;
+		max-width: 100%;
+		float:initial;
+		margin:0 auto;
+		padding: 0;
+		background-color: #0C525EFF;
+		border: initial;
+	}
+
+	aside p 
+	{
+		text-align: center;
+		font-size: .75em;
+		margin:0 auto;
+
+	}
+	aside h3 
+	{
+		text-align: center;
+		font-size: .95em;
+	}
+	footer
+	{
+		font-size: 1em;
+	}
+
+	#contact a
+	{
+		text-align: right;
+	}
+	
+}
+@media screen and (max-width: 650px)
+{
+
+	#wrapper
+	{
+		margin: 0;
+		max-width: 100%;
+		background-color: #0C525EFF;
+
+	}
+	
+}
+
+
+
+
