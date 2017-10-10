@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>SSC Software Developer's Guild</title>
+    <link>http://206.244.75.249/~jhelsel0426/home.html</link>
+    <description>The latest Software Developer's Guild news...</description>
+    <language>en-us</language>
+    <managingEditor>starkwareguild@gmail.com</managingEditor>
+    <webMaster>starkwareguild@gmail.com</webMaster>
+    <copyright>SSC Software Developer's Guild</copyright>
+    <image>
+      <title>SSC Software Developer's Guild</title>
+      <link>http://206.244.75.249/~jhelsel0426/home.html</link>
+      <url>http://206.244.75.249/~jhelsel0426/images/home.png</url>
+      <width>100</width>
+      <height>100</height>
+    </image>
+    <item>
+      <title>09-12-2017</title>
+      <pubDate>Wed, 13 Sep 2017 14:20:32 -0400</pubDate>
+      <link>http://206.244.75.249/~jhelsel0426/news/09132017.html</link>
+      <author>starkwareguild@gmail.com</author>
+      <description><![CDATA[Officer Elections held this week.]]></description>
+    </item>
+    <item>
+      <title>09-19-2017</title>
+      <pubDate>Wed, 19 Sep 2017 07:55:32 -0400</pubDate>
+      <link>http://206.244.75.249/~jhelsel0426/news/09192017.html</link>
+      <author>starkwareguild@gmail.com</author>
+      <description><![CDATA[Discussed possible projects this week.]]></description>
+    </item>
+  </channel>
+</rss>
