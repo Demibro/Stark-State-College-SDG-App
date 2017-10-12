@@ -9,13 +9,15 @@ body
 	font-family: "Courier New", Courier, monospace;
 	margin: 0;
 	background-color: #222;
-	background-color: #010700FF;
-	background-color: #151412FF;
-	color:#303030;	
+	background-color: #101310;
 	color: #E0FFE0;
 	font-size: 16pt;
-	min-width: 360px;
-	
+	min-width: 360px;	
+}
+
+body, nav, footer
+{
+	background-image: url("../img/broken-noise.png");
 }
 /*#wrapper
 {
@@ -105,16 +107,16 @@ header i
 	margin-bottom: 10px;
 
 }
-header .fa-github-square, header .fa-facebook-square
+header a
 {
 	color: #E0FFE0;
 	
 }
 
-header .fa-github-square:hover, header .fa-facebook-square:hover
+header a:hover
 {
 	color: #3BA828;
-	transition-duration: .75s;
+	transition-duration: .5s;
 }
 
 
@@ -122,6 +124,7 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 {
 	display: inline-block;
 	margin-top: 80px;
+	margin-bottom: 80px;
 
 
 }
@@ -134,20 +137,20 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 }
 
 
-
 .about 
 {
-	max-width: 50%;
+	max-width: 65%;
 	float: left;
 	margin:0 auto;
 	font-size:2em;
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
+	text-align: left;
+	hyphens: auto;
+	-webkit-hyphens: auto;
 }
 
 .about h2, .about p
 {
-	/*background-color: white;
-	background-color: #2D392C;*/
 	margin: 0;
 	padding: 0;
 	margin: 0 auto;
@@ -158,24 +161,27 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 
 .about h2
 {
-	border-radius: 5px 5px;
+	/*border-radius: 5px 5px 0 0;
+	border: solid #2E322E;
+	border-width: 2px 2px 0 2px;*/\
+	text-transform: uppercase;
+
 }
 
 .about p
 {
-	border-radius: 0 0 5px 5px;
+	/*border-radius: 0 0 5px 5px;
+	border: solid #2E322E;
+	border-width: 0px 2px 2px 2px;*/
 }
 
 .meeting-info
 {
 
-	width: 95%;
-	margin: 0 auto;
+	max-width: 35%;
 	text-align: center;
-	clear:left;
-	margin-bottom: 50px;
-	margin-top: 125px;
 	font-size: .95em;
+	float:right;
 	
 
 }
@@ -185,6 +191,13 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 	color: inherit;
 
 }
+
+.meeting-info h3, .meeting-info p
+{
+	
+	margin: 0 auto;
+}
+
 .meeting-info h3
 {
 	margin: 0;
@@ -192,28 +205,28 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 }
 .meeting-info p
 {
-	margin: 0;
+	width: 90%;
+	margin: 0 auto;
 	
 
 }
 .officers
 {
-	max-width: 50%;
+	max-width: 35%;
 	float: left;
-	
-
+	margin-bottom: 50px;
 
 }
 .officers table
 {
-	max-width: 60%;
+	
 	height: auto;
-	width: auto;
+	width: 95%;
 	margin: 0 auto;
 	border-radius: 5px;
 	color: inherit;
-	background-color: #303030;
-	background-color: #2E322E;
+	/*background-color: #2E322E;*/
+	/*border: solid 2px #2E322E;*/
 
 }
 .officers tr, th
@@ -227,7 +240,6 @@ header .fa-github-square:hover, header .fa-facebook-square:hover
 	width: 90px;
 	max-height: 100%;
 	height: 90px;
-
 	border-radius: 10px;
 	background-color: black;
 }
@@ -241,7 +253,7 @@ footer
 	background-color: #0C0C0C;
 	text-align: center;
 	color: inherit;
-	font-size: .85em;
+	font-size: 1.25em;
 
 }
 
@@ -249,14 +261,16 @@ footer #copyright
 	{	
 		display: inline-flex;
 		width: 100%;
-		
+		font-size: .8em;
 		padding-bottom: 5px;
+		margin-left: 10px;
 	}
 footer #copyright p
 {
-	text-align: right;
-	width: inherit;
-	margin-right: 5px;
+		
+		width: inherit;
+		text-align: left;
+
 }
 
 footer #contact
@@ -302,20 +316,26 @@ header img
 	}
 	.about
 	{
-		width: 100%;
 		max-width: 100%;
 		font-size: 3em;
+
 	}
 	.about h2, .about p
 	{
-		width:90%;
-		margin: 0 auto;
+		width:100%;
+		
+	}
+
+	.about p 
+	{
+		max-width: 90%;
+		margin:0 auto;
 	}
 	.officers
 	{
 		clear:left;
-		max-width: 100%;
 		width: 100%;
+		max-width: 100%;
 		font-size: 1.5em;
 	}
 
@@ -326,12 +346,20 @@ header img
 	}
 	.meeting-info
 	{
+		clear:left;
+		max-width: 100%;
+		width: 100%;
 		font-size: 1.25em;
+
+	}
+	.meeting-info h3, .meeting-info p
+	{
+		margin: 0 auto;
 	}
 
 	footer
 	{
-		font-size: 1.25em;
+		font-size: 1.7em;
 	}
 }
 
