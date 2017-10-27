@@ -1,0 +1,9 @@
+{
+	"autoload":{
+		"classmap":[
+			"src/css",
+			"src/html",
+			"src/php",
+			"src/js"
+	}
+}

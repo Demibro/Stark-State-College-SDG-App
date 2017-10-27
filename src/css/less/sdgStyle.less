@@ -1,0 +1,372 @@
+/*CSS Page Software Guild*/
+
+html
+{
+	
+	overflow-x: hidden;
+}
+body 
+{
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	background-color: #222;
+	background-color: #101310;
+	color: #E0FFE0;
+	font-size: 16pt;
+	min-width: 360px;	
+}
+
+body, nav, footer
+{
+	background-image: url("../img/broken-noise.png");
+}
+
+nav
+{
+	display: block;
+	width: 100%;
+	min-height: 60px;
+	padding: 0;
+	background-color: #0C0C0C;
+	text-align: right;
+	position: relative;
+	font-size: 16pt;
+	padding: 3px;
+}
+
+nav .nav-img 
+{
+	margin-left: 15px;
+	max-height: 60px;
+	float:left;
+	
+}
+
+nav .nav-links
+{
+	margin-right: 15px;
+	width: 90%;
+	min-width: 60px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+
+nav .nav-links a
+{
+	text-decoration: none;
+	color: inherit;
+	margin-top: 99%;
+	
+}
+
+nav .nav-links a:hover
+{
+	color: #3BA828;
+	transition-duration: .35s;
+}
+
+nav img
+{
+	
+	width: auto;
+	max-height: 60px;
+
+}
+header
+{
+	text-align: center;
+	background-color: rgb(99,155,153);
+	background-color: rgb(27, 93, 24);
+	background-image: url("../img/bg4.png");
+	display: inline-block;
+	width: 100%;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+header h1
+{
+	
+	margin-top: 25px;
+	margin: 0 auto;
+	font-family: Optima, Segoe,  'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	color: #E0FFE0;
+
+}
+
+header i
+{
+	/*margin-top: 50px*/;
+	margin-bottom: 10px;
+
+}
+header a
+{
+	color: #E0FFE0;
+	
+}
+
+header a:hover
+{
+	color: #3BA828;
+	transition-duration: .35s;
+}
+
+
+.main
+{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.main a
+{
+	
+	text-decoration: none;
+
+}
+
+
+.about 
+{
+	max-width: 65%;
+	float: left;
+	margin:0 auto;
+	font-size:2em;
+	margin-bottom: 20px;
+	text-align: left;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+}
+
+.about h2, .about p
+{
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 15px;	
+}
+
+.about h2
+{
+	
+	text-transform: uppercase;
+
+}
+
+.about p
+{
+	text-indent: 10px;
+
+}
+
+.meeting-info
+{
+
+	max-width: 35%;
+	text-align: center;
+	font-size: .95em;
+	float:left;
+	
+
+}
+.meeting-info a
+{
+	/*color:#303030;*/
+	color: inherit;
+
+}
+
+.meeting-info h3, .meeting-info p
+{
+	
+	margin: 0 auto;
+}
+
+.meeting-info h3
+{
+	margin: 0;
+	margin-bottom: 5px;
+}
+.meeting-info p
+{
+	width: 90%;
+	margin: 0 auto;
+	
+
+}
+.officers
+{
+	max-width: 35%;
+	float: left;
+	margin-bottom: 50px;
+
+}
+.officers table
+{
+	
+	
+	width: 95%;
+	margin: 0 auto;
+	border-radius: 5px;
+	color: inherit;
+}
+.officers tr, th
+{
+	text-align: center;
+}
+
+.officers img
+{
+	max-width: 100%;
+	max-height: 100%;
+	width: 90px;
+	height: 90px;
+	border-radius: 10px;
+	background-color: #1C1C1C;
+}
+
+
+footer
+{
+	display: inline-block;
+	width: 100%;
+	background-color: #1C1C1C;
+	background-color: #0C0C0C;
+	text-align: center;
+	color: inherit;
+	font-size: 1.25em;
+
+}
+
+footer #copyright 
+	{	
+		display: inline-flex;
+		width: 100%;
+		font-size: .8em;
+		padding-bottom: 5px;
+		margin-left: 10px;
+	}
+footer #copyright p
+{
+		
+		width: inherit;
+		text-align: left;
+
+}
+
+footer #contact
+{			
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+	margin-left: 5px;	
+}
+
+footer #contact h4, p
+{
+	margin: 0;
+}
+
+footer #contact a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+@media screen and (max-width: 1050px)
+{
+	
+	body
+	{
+		font-size: 14pt;
+	}
+	
+
+	.about
+	{
+		max-width: 100%;
+		font-size: 3em;
+
+	}
+	.about h2, .about p
+	{
+		width:100%;
+		
+	}
+
+	.about p 
+	{
+		max-width: 90%;
+		margin:0 auto;
+	}
+	.officers
+	{
+		clear:left;
+		width: 100%;
+		max-width: 100%;
+		font-size: 1.5em;
+	}
+
+	.officers table
+	{
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	.meeting-info
+	{
+		clear:left;
+		max-width: 100%;
+		width: 100%;
+		font-size: 1.25em;
+
+	}
+	.meeting-info h3, .meeting-info p
+	{
+		margin: 0 auto;
+	}
+
+	footer
+	{
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (max-width: 950px) 
+{
+	body
+	{
+		font-size: 12pt;
+	}
+}
+
+
+@media screen and (max-width: 850px)
+{
+	body
+	{
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	body
+	{
+		font-size: 8pt;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	body
+	{
+		font-size: 6pt;
+	}
+}
+
+
