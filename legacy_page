@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <script src="https://use.fontawesome.com/4c9c134f39.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <title>SDG Home</title>
+  <link href="css/SDGstyle3.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div id="wrapper">
+  <nav>
+    <div class="nav-img"><a href="index.html"><img src="img/grnSDG.png" height="50px" width="50px" alt="cat"></a></div>
+    <div class="nav-links">
+      <a id="nav-index" href="index.html">Home</a>
+      <a id="nav-about" href="#">About</a>
+      <a id="nav-projects" href="#">Projects</a>
+   </div> 
+  </nav>
+
+  <header>
+    <h1>Software</h1><h1>Development</h1><h1>Guild</h1>
+    <a href="https://github.com/Demibro/Stark-State-College-SDG-App"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/Stark-State-College-Software-Development-Guild-1519047618176936/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/software_guild"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+  </header>
+  
+ <h2 style="font-size:80px;text-align:center">Our Legacy</h2>
+  <h3 style="font-size:60px;text-align:center">Projects</h3>
+  <div class="project_left">
+<table style="text-align:center;">
+<tr>
+<th colspan="2">Website</th>
+</tr>
+<tr>
+<td>John Doe</td>
+<td>Tyler Eiseman</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>testing testing</td>
+<td>name</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>legacy page</td>
+<td>name</td>
+</tr>
+</table>
+</div>
+<div class="project_right" >
+<table style="text-align:center;">
+<tr>
+<th colspan="2">Website</th>
+</tr>
+<tr>
+<td>name</td>
+<td>Tyler Eiseman</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>this can help us</td>
+<td>more test</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+</tr>
+</table>
+  </div>
+  
+  <h3 style="font-size:60px;text-align:center">Members</h3>
+    <div class="project_left">
+<table style="text-align:center;">
+<tr>
+<th colspan="2">Fall 2017</th>
+</tr>
+<tr>
+<td>John Doe</td>
+<td>Tyler Eiseman</td>
+</tr>
+<tr>
+<td>name super</td>
+<td>name</td>
+</tr>
+<tr>
+<td>namey name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>other name</td>
+<td>name</td>
+</tr>
+<tr>
+<td>testing</td>
+<td>this  long name</td>
+</tr>
+<tr>
+<td>name random</td>
+<td>name</td>
+</tr>
+</table>
+</div>
+<div class="project_right" >
+<table style="text-align:center;">
+<tr>
+<th colspan="2">Spring 2018</th>
+</tr>
+<tr>
+<td>name</td>
+<td>Tyler Eiseman</td>
+</tr>
+<tr>
+<td>name</td>
+<td>namhfjkdale</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name taco bell</td>
+</tr>
+<tr>
+<td>alright</td>
+<td>name</td>
+</tr>
+<tr>
+<td>ranch</td>
+<td>name</td>
+</tr>
+<tr>
+<td>super</td>
+<td>name</td>
+</tr>
+</table>
+  </div>
+  
+  <footer>
+    <section id="contact">
+      <h4>Contact:&nbsp;</h4>
+      <p>President Namey McNamerson&nbsp;</p>
+      <p><a href="mailto:MR_prezzz@dudeguy.com">MR_prezzz@dudeguy.com</a></p>
+    </section>
+    <section id="copyright">
+      <p>&copy; 2017 SSC Software Development Guild</p>
+    </section>
+  </footer>
+ 
+  </div>
+
+</body>
+</html>
+
+
+
