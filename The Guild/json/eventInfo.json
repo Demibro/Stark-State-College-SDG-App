@@ -1,0 +1,52 @@
+{
+	"events": [{
+			"name": "Week 7 Meeting",
+			"month": "October",
+			"day": 10,
+			"year": 2017,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 8 Meeting",
+			"month": "October",
+			"day": 17,
+			"year": 2017,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 9 Meeting",
+			"month": "October",
+			"day": 24,
+			"year": 2017,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 10 Meeting",
+			"month": "October",
+			"day": 26,
+			"year": 2017,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 11 Meeting",
+			"month": "November",
+			"day": 2,
+			"year": 2017,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 2000 Meeting",
+			"month": "December",
+			"day": 30,
+			"year": 2121,
+			"description": "This is where the meeting minutes or ajenda go."
+		},
+		{
+			"name": "Week 3000 Meeting",
+			"month": "December",
+			"day": 30,
+			"year": 2222,
+			"description": "This is where the meeting minutes or ajenda go."
+		}
+	]
+}
