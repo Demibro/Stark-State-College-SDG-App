@@ -213,8 +213,6 @@ header a:hover
 }
 .officers table
 {
-	
-	
 	width: 95%;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -235,6 +233,92 @@ header a:hover
 	background-color: #1C1C1C;
 }
 
+#calendar-wrap 
+{
+	width: 97%;
+	overflow: hidden;
+}
+
+#calendar
+{
+	padding: 10px;
+	width: 210px;
+	height: 210px;
+	text-align: center;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	font-size: 16px;
+	background-image: linear-gradient(rgb(27, 93, 24), #3BA828);
+	float: right;
+ 	padding: 5px; 
+ 	overflow: none;
+}
+
+#calendar-month-year
+{
+	margin: 2px;
+}
+
+#calendar-dates>table>tr>td
+{
+	padding: 4px;
+}
+
+#event-nav
+{
+	float: right;
+	width: 80%;
+	min-height: 60px;
+	padding: 0;
+	background-image: linear-gradient(rgb(27, 93, 24), #3BA828);
+	text-align: center;
+	position: relative;
+	font-size: 16pt;
+	padding: 3px;
+}
+
+.events
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#container-events
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#container-events>h2
+{
+	text-align: left;
+	padding-left: 10px;
+	border-bottom: solid 5px green;
+}
+
+#container-events>table
+{
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#container-events>table>tr>td>h3
+{
+	text-align: center;
+}
+
+#container-events>table>tr>td>h6
+{
+	text-align: center;
+}
+
+#container-events>table>tr>td
+{
+	text-align: center;
+	height: auto;
+}
 
 footer
 {
